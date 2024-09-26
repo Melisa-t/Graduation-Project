@@ -5,9 +5,7 @@
 }
 
 .countdown {
-
     display: flex;
-    gap: 100px;
     align-items: center;
     justify-content: center;
 }
@@ -27,8 +25,24 @@
     justify-content: center;
     align-items: center;
     transform: scale(2);
+    margin: 30px;
 }
 
 h1, h3 {
     margin: 80px !important;
 }
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 45px;
+    }
+    .time {
+        margin: 20px;
+    }
+    .time h2 {
+        font-size: 12px;
+    }
+    .time small {
+        font-size: 10px;
+    }
+  }
