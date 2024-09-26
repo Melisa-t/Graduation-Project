@@ -4,6 +4,19 @@
     padding: 0;
 }
 
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+p {
+    color: #CA8787;
+    padding-bottom: 15px;
+}
+
+.text {
+    margin: 0 80px;
+}
+
 .countdown {
     display: flex;
     align-items: center;
@@ -29,7 +42,8 @@
 }
 
 h1, h3 {
-    margin: 80px !important;
+    margin: 50px;
+    color: #A87676;
 }
 
 @media screen and (max-width: 500px) {
@@ -46,3 +60,5 @@ h1, h3 {
         font-size: 10px;
     }
   }
+
+ 
