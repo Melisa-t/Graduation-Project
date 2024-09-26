@@ -1,16 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .countdown {
-    width: 500px;
-    height: 500px; 
-    border: 10px solid pink;
-    margin: 30px auto;
+
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 .big-heading {
     text-align: center;
-    margin-top: 30px;
+
 }
 
 .little-heading {
-    margin-bottom: 30px;
     text-align:center;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(2);
+}
+
+h1, h3 {
+    margin: 80px !important;
 }
