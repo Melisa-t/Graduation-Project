@@ -1,0 +1,16 @@
+.countdown {
+    width: 500px;
+    height: 500px; 
+    border: 10px solid pink;
+    margin: 30px auto;
+}
+
+.big-heading {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.little-heading {
+    margin-bottom: 30px;
+    text-align:center;
+}
