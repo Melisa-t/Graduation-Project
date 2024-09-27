@@ -23,6 +23,19 @@ function countdownTimer(){
     minutes.innerHTML = m;
     seconds.innerHTML = s;
 
+    if (d<10) {
+        days.innerHTML = "0" + d; 
+    }
+    if (h<10) {
+        hours.innerHTML = "0" + h; 
+    }
+    if (m<10) {
+        minutes.innerHTML = "0" + m; 
+    }
+    if (s<10) {
+        seconds.innerHTML = "0" + s; 
+    }
+
     setInterval(countdownTimer, 1000)
 }
 
