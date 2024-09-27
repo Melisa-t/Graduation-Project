@@ -23,6 +23,8 @@ function countdownTimer(){
     minutes.innerHTML = m;
     seconds.innerHTML = s;
 
+    setTimeout(countdownTimer, 1000)
 }
+
 
 countdownTimer()
