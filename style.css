@@ -15,9 +15,10 @@ body {
     align-items: center;
 }
 
+
 .container {
-    background-color: pink;
-    width: 80%;
+    background-color:rgba(255, 208, 208, 0.5);
+    width: 60%;
     margin: 50px;
     padding-bottom: 50px;
     display:flex;
@@ -27,12 +28,12 @@ body {
 }
 
 p {
-    color: #CA8787;
+    color: #000000;
     padding-bottom: 15px;
 }
 
 .text {
-    margin: 0 50px;
+    margin-right: 50px;
 }
 
 .countdown {
@@ -41,13 +42,8 @@ p {
     justify-content: center;
 }
 
-.big-heading {
+.big-heading, .little-heading {
     text-align: center;
-
-}
-
-.little-heading {
-    text-align:center;
 }
 
 .time {
@@ -59,9 +55,12 @@ p {
     margin: 30px;
 }
 
+
 h1, h3 {
     margin: 50px;
     color: #A87676;
+    border-bottom: solid 3px #A87676; 
+    padding-bottom: 5px;
 }
 
 @media screen and (max-width: 500px) {
@@ -79,4 +78,30 @@ h1, h3 {
     }
   }
 
- 
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    
+}
+
+.img {
+    margin-left: 50px;
+    display: block;
+    background-image:url(img/2.jpg);
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+
+.text {
+    background-color: rgba(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+
+}
