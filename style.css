@@ -8,7 +8,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     background-image: url(https://lucieannabel.com/cdn/shop/files/LAN100002-Sweet-Meadow-in-Soft-Teal-on-Pastel-Pink_Thumbnail_WEB_1000x.jpg?v=1701275649);
     background-position: center center;
-    background-size: contain;
+    background-size: repeat;
     display:flex;
     flex-direction: column;
     justify-items: center;
@@ -17,7 +17,7 @@ body {
 
 
 .container {
-    background-color:rgba(255, 208, 208, 0.5);
+    background-color:rgba(168, 118, 118, 0.3);
     width: 60%;
     margin: 50px;
     padding-bottom: 50px;
